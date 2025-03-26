@@ -1,0 +1,6 @@
+#docker
+services:
+  csql_maintenance:
+    image: csql_maintenance:1.0
+    container_name: "csql_maintenance"
+

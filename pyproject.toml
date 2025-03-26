@@ -1,0 +1,25 @@
+[project]
+name = "csql_maintenance"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "febriyant.abidin", email = "febriyant.abidin@aladinbank.id"},
+]
+dependencies = [
+    "httplib2>=0.22.0",
+    "python-dotenv>=1.0.1",
+    "urllib3>=2.2.3",
+    "sqlalchemy>=2.0.36",
+    "mysql-connector-python>=9.1.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "None"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
